@@ -1595,45 +1595,56 @@
 
     .activities {
         width: 100%;
+        max-width: 300px;
         padding-top: 50px;
         grid-template-columns: 100%;
     }
 
     .img_container {
-        max-width: 100%;
-        height: 200px;
+        max-width: 280px;
+        height: 110px;
     }
 
     .deep {
         @include back('../images/mobile/image-deep-earth.jpg');
+        background-position: center center;
+        background-size: contain;
     }
 
     .night {
         @include back('../images/mobile/image-night-arcade.jpg');
+        background-size: contain;
+
     }
 
     .soccer {
         @include back('../images/mobile/image-soccer-team.jpg');
+        background-size: contain;
     }
 
     .grid {
         @include back('../images/mobile/image-grid.jpg');
+        background-size: contain;
     }
 
     .fromUp {
-       @include back('../images/mobile/image-from-above.jpg')
+       @include back('../images/mobile/image-from-above.jpg');
+       background-size: contain;
     }
 
     .pocket {
-        @include back('../images/mobile/image-pocket-borealis.jpg')
+        @include back('../images/mobile/image-pocket-borealis.jpg');
+        background-size: contain;
     }
 
     .curio {
-        @include back('../images/mobile/image-curiosity.jpg')
+        @include back('../images/mobile/image-curiosity.jpg');
+        background-size: contain;
     }
 
     .fisheye {
-        @include back('../images/mobile/image-fisheye.jpg')
+        @include back('../images/mobile/image-fisheye.jpg');
+        background-size: contain;
     }
 
     .img_container img {
